@@ -1,0 +1,34 @@
+body {
+  background: linear-gradient(-45deg, #ac64e6, #76daa9, #ffd739, #fa48da);
+  background-size: 400% 400%;
+  height: 100vh !important;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.content {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 77px;
+  font-family: "Lato", sans-serif;
+}
