@@ -1,0 +1,47 @@
+body {
+  background: linear-gradient(-45deg, #ac64e6, #76daa9, #ffd739, #fa48da);
+  background-size: 400% 400%;
+  height: 100vh !important;
+  animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 0%;
+  }
+  25% {
+    background-position: 100% 0%;
+  }
+  50% {
+    background-position: 100% 100%;
+  }
+  75% {
+    background-position: 0% 100%;
+  }
+  100% {
+    background-position: 0% 0%;
+  }
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.option {
+  width: 50vh;
+  color: white;
+  font-size: 5vh;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  margin: 20px 0;
+  padding: 30px;
+  border-radius: 30px;
+  background: #000;
+  text-align: center;
+}
+.option:hover {
+  color: #76daa9;
+}
