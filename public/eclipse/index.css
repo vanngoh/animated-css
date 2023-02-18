@@ -11,8 +11,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 30vh;
-  width: 30vh;
+  height: 50vw;
+  width: 50vw;
   border: solid 1px #f2f3f5;
   border-radius: 50%;
   box-shadow: 0 0 30px #f2f3f5;
@@ -21,13 +21,13 @@ body {
 .eclipse p {
   margin: 0;
   color: #f2f3f5;
-  font-size: 33px;
+  font-size: 7vw;
   font-family: "Noto Sans JP", sans-serif;
 }
 
 .eclipse p:nth-child(2) {
   margin: 0;
   color: #f2f3f5;
-  font-size: 66px;
+  font-size: 14vw;
   font-family: "Noto Sans JP", sans-serif;
 }

@@ -31,9 +31,9 @@ body {
   height: 100vh;
 }
 .option {
-  width: 50vh;
+  width: 50vw;
   color: white;
-  font-size: 5vh;
+  font-size: 5vw;
   font-family: "Lato", sans-serif;
   text-decoration: none;
   margin: 20px 0;
